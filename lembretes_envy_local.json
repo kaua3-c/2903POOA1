@@ -1,0 +1,16 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "localhost:4000/lembretes_envy_local",
+    "dateExported": "2023-03-29T20:53:03.415Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "MSS_LEMBRETES_PORTA",
+            "value": "4000"
+        },
+        {
+            "name": "MSS_LEMBRETES_HOST",
+            "value": "localhost"
+        }
+    ]
+}

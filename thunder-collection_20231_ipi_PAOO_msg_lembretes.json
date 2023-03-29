@@ -1,0 +1,55 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20231_ipi_PAOO_msg_lembretes",
+    "dateExported": "2023-03-29T20:52:04.447Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "b881834c-a8f2-4217-a181-50e260fed7c4",
+            "name": "msg",
+            "containerId": "",
+            "created": "2023-03-29T20:22:44.659Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "cd6f255f-89ee-4742-93be-245c38469290",
+            "colId": "811b260e-3dca-4de3-b507-c8c83b5f6bf6",
+            "containerId": "",
+            "name": "obter lembretes",
+            "url": "localhost:4000/lembretes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-29T20:23:55.727Z",
+            "modified": "2023-03-29T20:23:55.727Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\":\"fazer cafe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1559ca53-3530-40be-864b-41f6bf008f68",
+            "colId": "811b260e-3dca-4de3-b507-c8c83b5f6bf6",
+            "containerId": "",
+            "name": "salvar lembretes",
+            "url": "localhost:4000/lembretes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-29T20:24:05.633Z",
+            "modified": "2023-03-29T20:24:05.633Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\": \"fazer cafe\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
